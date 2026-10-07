@@ -1,0 +1,10 @@
+item,A,B,doc_id,toxicity,stratum,final,corpus,adjudicated
+tiny_020,toxic,not_toxic,tinystories_0042409,0.9881688952445984,>=0.90,toxic,tinystories,
+tiny_046,toxic,not_toxic,tinystories_0049379,0.9292211532592772,>=0.90,not_toxic,tinystories,
+tiny_097,toxic,not_toxic,tinystories_0039567,0.9655091166496276,>=0.90,not_toxic,tinystories,
+c4_c_003,toxic,not_toxic,c4_cc_proxy_0028771,0.9049208164215088,>=0.90,not_toxic,c4_cc_proxy,
+c4_c_008,toxic,not_toxic,c4_cc_proxy_0007613,0.5910699963569641,0.50-0.90,not_toxic,c4_cc_proxy,
+c4_c_013,toxic,not_toxic,c4_cc_proxy_0044142,0.9526255130767822,>=0.90,toxic,c4_cc_proxy,
+c4_c_014,toxic,not_toxic,c4_cc_proxy_0010332,0.9579585194587708,>=0.90,not_toxic,c4_cc_proxy,
+c4_c_027,toxic,not_toxic,c4_cc_proxy_0028875,0.7768887877464294,0.50-0.90,toxic,c4_cc_proxy,
+c4_c_066,toxic,not_toxic,c4_cc_proxy_0038030,0.7842311263084412,0.50-0.90,not_toxic,c4_cc_proxy,

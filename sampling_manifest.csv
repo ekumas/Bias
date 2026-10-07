@@ -1,0 +1,2 @@
+corpus,label,hf_path,config_name,split,seed,shard_shuffled,shuffle_buffer,n_requested,n_retained,candidate_pool_target,n_eligible_seen,n_scanned,n_dropped_duplicate,n_dropped_too_short,n_dropped_missing_text,min_doc_chars,max_doc_chars,elapsed_sec,output
+pile_uncopyrighted,The Pile (uncopyrighted),monology/pile-uncopyrighted,,train,42,True,10000,50000,50000,200000,200000,204148,162,3985,0,200,20000,159.2,/Users/ekumas/Desktop/Makaleler/Algorithmic Bias/cabef_pipeline/data/sample_pile_uncopyrighted.parquet

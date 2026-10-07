@@ -1,0 +1,22 @@
+{
+  "corpus": "tinystories",
+  "label": "TinyStories",
+  "hf_path": "roneneldan/TinyStories",
+  "config_name": null,
+  "split": "train",
+  "seed": 42,
+  "shard_shuffled": true,
+  "shuffle_buffer": 10000,
+  "n_requested": 50000,
+  "n_retained": 50000,
+  "candidate_pool_target": 200000,
+  "n_eligible_seen": 200000,
+  "n_scanned": 203521,
+  "n_dropped_duplicate": 3478,
+  "n_dropped_too_short": 42,
+  "n_dropped_missing_text": 0,
+  "min_doc_chars": 200,
+  "max_doc_chars": 20000,
+  "elapsed_sec": 64.6,
+  "output": "/Users/ekumas/Desktop/files-4/cabef_pipeline/data/sample_tinystories.parquet"
+}

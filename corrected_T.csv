@@ -1,0 +1,3 @@
+corpus,raw,corrected,band_tp_rate,high_tp,high_n
+tinystories,0.00842,0.000616,0.075,2,37
+c4_cc_proxy,0.00288,0.000423,0.125,5,15

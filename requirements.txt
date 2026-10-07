@@ -1,0 +1,23 @@
+# CABEF pipeline — Python 3.9+
+#
+# Pin these exact versions in the paper's reproducibility statement.
+# Record the output of `pip freeze` from your actual run alongside the results.
+
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+pyarrow>=12.0            # parquet engine — pandas will not write parquet without it
+tqdm>=4.65
+
+# Script 01 / 05 — corpus and BBQ loading
+datasets>=2.16
+
+# Script 03 — toxicity (T)
+detoxify>=0.5.2
+torch>=2.0
+transformers>=4.35
+
+# Script 04 — geography (G)
+spacy>=3.7
+geonamescache>=2.0
+# after install, run once:  python -m spacy download en_core_web_sm

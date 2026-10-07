@@ -1,0 +1,22 @@
+{
+  "corpus": "fineweb_edu",
+  "label": "FineWeb-Edu",
+  "hf_path": "HuggingFaceFW/fineweb-edu",
+  "config_name": "sample-10BT",
+  "split": "train",
+  "seed": 42,
+  "shard_shuffled": true,
+  "shuffle_buffer": 10000,
+  "n_requested": 50000,
+  "n_retained": 50000,
+  "candidate_pool_target": 200000,
+  "n_eligible_seen": 200000,
+  "n_scanned": 200177,
+  "n_dropped_duplicate": 175,
+  "n_dropped_too_short": 1,
+  "n_dropped_missing_text": 0,
+  "min_doc_chars": 200,
+  "max_doc_chars": 20000,
+  "elapsed_sec": 242.8,
+  "output": "/Users/ekumas/Desktop/files-4/cabef_pipeline/data/sample_fineweb_edu.parquet"
+}

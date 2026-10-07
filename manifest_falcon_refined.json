@@ -1,0 +1,22 @@
+{
+  "corpus": "falcon_refined",
+  "label": "Falcon-RefinedWeb",
+  "hf_path": "tiiuae/falcon-refinedweb",
+  "config_name": null,
+  "split": "train",
+  "seed": 42,
+  "shard_shuffled": true,
+  "shuffle_buffer": 10000,
+  "n_requested": 50000,
+  "n_retained": 50000,
+  "candidate_pool_target": 200000,
+  "n_eligible_seen": 200000,
+  "n_scanned": 204651,
+  "n_dropped_duplicate": 7,
+  "n_dropped_too_short": 4643,
+  "n_dropped_missing_text": 0,
+  "min_doc_chars": 200,
+  "max_doc_chars": 20000,
+  "elapsed_sec": 230.7,
+  "output": "/Users/ekumas/Desktop/files-4/cabef_pipeline/data/sample_falcon_refined.parquet"
+}

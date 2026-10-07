@@ -1,0 +1,22 @@
+{
+  "corpus": "pile_uncopyrighted",
+  "label": "The Pile (uncopyrighted)",
+  "hf_path": "monology/pile-uncopyrighted",
+  "config_name": null,
+  "split": "train",
+  "seed": 42,
+  "shard_shuffled": true,
+  "shuffle_buffer": 10000,
+  "n_requested": 50000,
+  "n_retained": 50000,
+  "candidate_pool_target": 200000,
+  "n_eligible_seen": 200000,
+  "n_scanned": 204148,
+  "n_dropped_duplicate": 162,
+  "n_dropped_too_short": 3985,
+  "n_dropped_missing_text": 0,
+  "min_doc_chars": 200,
+  "max_doc_chars": 20000,
+  "elapsed_sec": 159.2,
+  "output": "/Users/ekumas/Desktop/Makaleler/Algorithmic Bias/cabef_pipeline/data/sample_pile_uncopyrighted.parquet"
+}

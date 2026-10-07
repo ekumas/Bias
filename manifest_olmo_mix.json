@@ -1,0 +1,22 @@
+{
+  "corpus": "olmo_mix",
+  "label": "OLMo-mix-1124",
+  "hf_path": "allenai/olmo-mix-1124",
+  "config_name": null,
+  "split": "train",
+  "seed": 42,
+  "shard_shuffled": true,
+  "shuffle_buffer": 10000,
+  "n_requested": 50000,
+  "n_retained": 50000,
+  "candidate_pool_target": 200000,
+  "n_eligible_seen": 200000,
+  "n_scanned": 200325,
+  "n_dropped_duplicate": 72,
+  "n_dropped_too_short": 252,
+  "n_dropped_missing_text": 0,
+  "min_doc_chars": 200,
+  "max_doc_chars": 20000,
+  "elapsed_sec": 307.0,
+  "output": "/Users/ekumas/Desktop/files-4/cabef_pipeline/data/sample_olmo_mix.parquet"
+}
